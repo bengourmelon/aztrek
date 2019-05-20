@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /*     max-width: $max-width; */
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 15px $spacer;
+}
+
+//responsive image
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+//fonts
+@font-face {
+    font-family: 'whitelistdemo';
+    src: url('../fonts/whitelist-demo-webfont.woff2') format('woff2'),
+        url('../fonts/whitelist-demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.hidden-text {
+    font-size: 0;
+}
+
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,55 @@
+.mr-sm-2,
+.mx-sm-2 {
+    margin: 0;
+}
+
+.btn-outline {
+    background: $blue;
+    padding: 0 8px;
+
+    &:hover {
+        background: $light-blue;
+    }
+}
+
+.fas {
+    font-size: 0.7em;
+}
+
+.form-control {
+    width: 25em;
+    font-size: 0.7em;
+    border-radius: 0;
+
+    @media (min-width: $bp-medium) {
+        padding-left: 1rem;
+        padding-right: 10rem;
+    }
+
+    @media (min-width: $bp-large) {
+
+        padding: 0 10px;
+        ;
+    }
+}
+
+.form-inline {
+    align-items: inherit;
+}
+
+.booking-array {
+    background: $light-blue;
+    padding: 20px 30px;
+}
+
+
+.booking {
+    .list-control {
+        width: 100%;
+    }
+}
+
+.form-group {
+
+        color: $dark-blue;
+    }

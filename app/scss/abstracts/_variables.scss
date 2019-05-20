@@ -1,0 +1,33 @@
+$blue:rgba(149, 190, 187, 0.2);
+$blue-menu:rgba(204, 204, 255, 0.8);
+$dark-blue: rgb(48, 82, 104);
+$light-blue: rgb(204, 204, 255);
+
+$yellow: rgb(255, 205, 0);
+$light-purple:rgba(150, 49, 89, 0.2);
+$purple:rgb(199, 120, 17);
+$light-yellow: rgb(255, 240, 178);
+
+$white:rgb(255, 255, 255);
+$black:rgba(0, 0, 0, 0);
+
+/* $navbar-dark-color: $dark-blue;
+$navbar-light-hover-color: $yellow; */
+ 
+
+
+
+
+/* $link-color: $red; */
+
+// Typos
+$font-default: 'open+sans', sans-serif;
+$font-subtitle: 'whitelistdemo', $font-default; 
+// Layout
+// Layout
+$max-width: 1200px;
+$bp-small: 480px;
+$bp-medium: 768px;
+$bp-large : 992px;
+$spacer : 15px;
+$big-spacer : 50px;

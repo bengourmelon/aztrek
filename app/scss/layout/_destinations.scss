@@ -1,0 +1,66 @@
+
+
+
+
+
+.hero-1 h1 {
+    text-align: center;
+    color: $black;
+    padding: $big-spacer 0;
+}
+
+.figure {
+    position: relative;
+
+    a {
+        display: block;
+    }
+
+    @media (min-width: $bp-large) {
+        overflow: hidden;
+    }
+}
+
+.hero-prez {
+
+    @media (min-width: $bp-large) {
+        overflow: hidden;
+    }
+
+    .figcaption {
+        &:hover {
+
+            opacity: 1;
+            bottom: 0;
+        }
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        color: $black;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        @media (min-width: $bp-large) {
+            top: 60%;
+            transition: 0.5s;
+            opacity: 0;
+
+            &.hover {
+                opacity: 1;
+                bottom: 0;
+            }
+        }
+    }
+    img {
+        @media (min-width: $bp-large) {
+            transition: 0.5s;
+        }
+    
+        &hover {
+            @media (min-width: $bp-large) {
+                transform: scale(1.1)
+            }
+        }
+    } 
+}

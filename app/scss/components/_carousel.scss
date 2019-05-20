@@ -1,0 +1,23 @@
+.carousel-caption {
+    bottom: 43%;
+
+    @media (min-width: $bp-medium) {
+        bottom: 48%
+    }
+
+    @media (min-width: $bp-large) {
+        bottom: 50%;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+
+        @media (min-width: $bp-medium) {
+            font-size: 3rem;
+        }
+
+        @media (min-width: $bp-large) {
+            font-size: 4rem;
+        }
+    }
+}

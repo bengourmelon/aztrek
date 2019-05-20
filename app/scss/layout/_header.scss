@@ -1,0 +1,20 @@
+.page-header-inner{
+    background: $blue;
+}
+
+.navbar-brand img {
+    width: 130px;
+    padding: 10px;
+
+    @media (min-width: $bp-medium) {
+       width: 160px;
+    }
+
+    @media (min-width: $bp-large) {
+        width: 190px;
+    }
+}
+
+.navbar-nav{
+   text-transform: uppercase;
+}

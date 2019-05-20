@@ -1,0 +1,105 @@
+.page-footer {
+    background: $blue;
+}
+
+.page-footer-inner {
+    .signature {
+        h5 {
+            font-size: 0.8rem;
+            padding: 30px;
+        }
+    }
+}
+
+.footer-content {
+    padding-top: $big-spacer;
+
+}
+
+.logo-footer img {
+    width: 300px;
+    padding-bottom: 30px;
+    margin: auto;
+
+    @media (min-width: $bp-medium) {
+        width: 400px;
+    }
+}
+
+.footer-social {
+    h2 {
+        font-size: 1.1rem;
+        color: $dark-blue;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+        padding: 0 10px;
+
+    }
+
+    .btn-rs {
+        /* font-size: 0; */
+        display: block;
+        width: 48px;
+        height: 48px;      
+        }
+    }
+
+    .btn-fb {
+        background: url('../images/btn-fb.png') center;
+        background-size: cover;
+        &:hover{
+            background: url('../images/btn-fb-hvr.png') center;
+            background-size: cover;
+         }
+    }
+
+    .btn-tw {
+        background: url('../images/btn-tw.png') center;
+        background-size: cover;
+        &:hover{
+            background: url('../images/btn-tw-hvr.png') center;
+            background-size: cover;
+         }
+    }
+
+    .btn-ins {
+        background: url('../images/btn-ins.png') center;
+        background-size: cover;
+        &:hover{
+            background: url('../images/btn-ins-hvr.png') center;
+            background-size: cover;
+         }
+    }
+
+    a {
+        color: $dark-blue;
+        text-decoration: none;
+
+        &:hover {
+            color: $yellow;
+        }
+    }
+
+.footer-nav {
+
+    font-size: 1.1rem;
+    padding: 20px;
+
+    a {
+        color: $dark-blue;
+        text-decoration: none;
+
+        &:hover {
+            color: $yellow;
+
+        }
+    }
+}
